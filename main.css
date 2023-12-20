@@ -1,0 +1,56 @@
+body{
+    position: relative;
+}
+h1{
+    text-align: center;
+}
+
+.content{
+    text-align: center;
+}
+
+.main{
+    width: 45vh;
+    height: 45vh;
+    margin:2rem auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.box{
+    width: 20vh;
+    height: 20vh;
+}
+.red{
+    background-color: lightcoral;
+}
+.green{
+    background-color: lightgreen;
+}
+.blue{
+    background-color: lightblue;
+}
+.yellow{
+    background-color: rgb(238, 238, 118);
+}
+.white{
+    background-color: white;
+}
+
+.darkred{
+    background-color: rgb(255, 64, 64);
+}
+
+.scoreBoard li{
+    border-bottom: 1px solid black;
+}
+
+.black{
+    background-color: rgb(69, 69, 69);
+}
+.colorWhite{
+    color: white;
+}
+.borderBottomWhite{
+    border-bottom: 1px solid white;
+}
